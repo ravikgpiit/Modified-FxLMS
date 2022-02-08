@@ -1,10 +1,12 @@
 function [A,x,I] = KS_init0(nq)
 
 % KS Parameters
-    R = 1000;
-    P = 35;
-    V = 0.5;
-    
+%     R = 0.25;
+%     P = 0.05;
+%     V = 0.4;
+    R = 0.25; % C1
+    P = 0.05; % C2
+    V = 0.4;  % U   
     
     
 % Domain length

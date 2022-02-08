@@ -1,4 +1,4 @@
-function [A,x,I] = KS_init_V1(nq)
+function [A,x,I] = KS_init_V2(nq)
 % clc, clear all;close all;
 % nq=400;
 %--------------------------------------------------------------------------
@@ -31,9 +31,9 @@ function [A,x,I] = KS_init_V1(nq)
 %     P = 35;
 %     V = 0.5;    
 %     % KS Parameters in general
-    R = 0.25;
-    P = 0.05;
-    V = 0.4;
+    R = 0.25; % C1
+    P = 0.075; % C2
+    V = 0.4;  % U
 % Domain length
     L = 800;
 
